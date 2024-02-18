@@ -14,11 +14,6 @@ interface.button1['command']= encrypt
 
 def change_cipher():
     currentcipher = interface.choice.get()
-    #interface.ciphermessage['text'] = currentcipher
-    #if currentcipher == 'Цезарь':
-        #interface.ciphername = 'Цезарь'
-    #elif currentcipher == 'Атбаш':
-        #interface.ciphername = 'Атбаш'
     if currentcipher == 'caesar':
         interface.ciphername['text'] = 'encrypted with Caesars cipher'
         interface.keybox['state']='normal'
